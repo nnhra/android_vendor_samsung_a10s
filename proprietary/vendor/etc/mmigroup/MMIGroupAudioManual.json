@@ -1,0 +1,104 @@
+{
+  "itemConfig": [
+    {
+      "showName": "LeftSpeaker"
+    },
+    {
+      "showName": "RightSpeaker"
+    },
+    {
+      "showName": "Receiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=receiver"
+        ],
+        "markedWords": "receiver_isMediaPlaying"
+      }
+    },
+    {
+      "showName": "MainMicToReceiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": false,
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic;",
+          "mmitest=on;outputdevice=receiver"
+        ],
+		 "markedWords": "mainmictoReceiver_speakernotify"
+      }
+    },
+    {
+     "showName":"MainMicToSpeaker1",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic;",
+		  "mmitest=on;outputdevice=speaker_left"
+        ],
+		 "markedWords": "mainmictoSpeaker1_speakernotify"
+      }
+    },
+    { 
+     "showName":"MainMicToSpeaker2",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+		  "mmitest=on;inputdevice=mainmic;",
+		  "mmitest=on;outputdevice=speaker_right"
+        ],
+		"markedWords": "mainmictoSpeaker2_speakernotify"
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.8,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic;",
+          "mmitest=on;outputdevice=headphone"
+        ],
+        "markedWords": "hsmictoheadphone_speakernotify"
+      }
+    },
+    {
+      "showName": "HeadSet",
+      "action": "com.mmigroup.action.HEADPHONE",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "FM",
+      "action": "com.mmigroup.action.FM",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "volume_rate": 0.8,
+        "default_freguency": 87500
+      }
+    }
+  ]
+}

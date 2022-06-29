@@ -1,0 +1,36 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": false
+      }
+    },
+    {
+      "showName": "Speaker"
+    },
+    {
+      "showName": "MainMicToReceiver"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone"
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "OTG"
+    }
+  ]
+}

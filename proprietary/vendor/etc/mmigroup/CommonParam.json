@@ -1,0 +1,1421 @@
+{
+  "call": {
+    "com.mmigroup.radiosupport.GSM": false,
+    "com.mmigroup.radiosupport.CDMA": false,
+    "com.mmigroup.radiosupport.TDCDMA": false,
+    "com.mmigroup.radiosupport.WCDMA": false,
+    "com.mmigroup.radiosupport.TDD": false,
+    "com.mmigroup.radiosupport.FDD": false,
+    "com.mmigroup.radiosupport.LTE": false
+  },
+  "mmigroupConfig": {
+    "com.mmigroup.support.statusbar": true,
+    "support_icon": "factory_only",
+    "桌面图标支持": [
+      "factory_only",
+      "none",
+      "all",
+      "normal_only"
+    ],
+    "isDebug": true,
+    "hideDownloadModeUi": true,
+    "hideFastBootModeUi": true,
+    "notch_height": 52,
+    "support_runin": false,
+    "bootStartUp": false
+  },
+  "systemConfig": {
+    "buildNumber": true,
+    "basebandVersion": true,
+    "kernelVersion": true,
+    "SW_Ver": true,
+    "Modem": true,
+    "MEID": false,
+    "IMEI": true,
+    "SN": true,
+    "PhoneSN": true,
+    "EFS": true,
+    "FactoryTestMode": false,
+    "BoardID": true,
+    "RPMB_provisioned": true,
+    "Secureboot": true,
+    "MMIGroupVersion": true,
+    "FactoryInterfaceVersion": true,
+    "FactoryInterfaceHALVersion": true,
+    "DualCameraCalibration": false,
+    "CameraEfuseID": false,
+    "DualCameCali": true,
+    "FlashlightCali": false,
+    "DualCameVerify": true,
+    "KeyBox_Written": true,
+    "Attestation": true,
+    "Widewine": false,
+    "CountryCode": true,
+    "Flash": true,
+    "Flash_fw": true,
+    "EFS_HW_Ver": true,
+    "EFS_SKU_Code": true,
+    "EFS_MPS_Code": true,
+    "EFS_CarrierId": true,
+    "EFS_BT_MAC": true,
+    "EFS_WIFI_MAC": true,
+    "EFS_PBA_SN": true,
+    "EFS_PROD_SN": true,
+    "RF_CALI_DATE": true,
+    "camera_match": true
+  },
+  "audioConfig": {
+    "ColseTheAudioChannelWaittingTime": 10
+  },
+  "camera_match": {
+    "support_camera": [
+      "MainCamera",
+      "Camera_Main2"
+    ],
+    "camera_id": [
+      [
+        "s5k3l6_helitai_HHT5036A",
+        "gc2375a_qunhui_GDA6451B1S-0P0J0"
+      ],
+      [
+        "hi1336_tongxingda_TABH28A",
+        "gc2375h_helitai_HKU1083"
+      ],
+      [
+        "hi1336_xinli_CME010QR-C",
+        "gc2375h_helitai_HKU1083"
+      ],
+      [
+        "s5k3l6_helitai_HHT5036A",
+        "gc2375h_helitai_HKU1083"
+      ],
+      [
+        "s5k3l6_helitai_HHT5036A",
+        "bf2253_qunhui_BA6530B1S-0P0J0"
+      ],
+      [
+        "hi1336_xinli_CME565-B13BA-E",
+        "bf2253_qunhui_BA6530B1S-0P0J0"
+      ],
+      [
+        "hi1336_tongxingda_TABH28B",
+        "bf2253_qunhui_BA6530B1S-0P0J0"
+      ]
+    ]
+  },
+  "itemConfig": {
+    "MainMicToHeadPhone": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic",
+          "mmitest=on;outputdevice=headphone"
+        ],
+        "markedWords": "mainmictoHeadphone_speakernotify"
+      },
+      "oldAct": [
+        "HMIC_EARSPK_LOOPBACK"
+      ]
+    },
+    "HsMicToHeadPhone": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic",
+          "mmitest=on;outputdevice=headphone"
+        ],
+        "markedWords": "hsmictoheadphone_speakernotify"
+      },
+      "oldAct": [
+        "EARMIC_EARSPK_LOOPBACK"
+      ]
+    },
+    "HsMicToReceiver": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.HSMICTORECEIVER",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic",
+          "mmitest=on;outputdevice=receiver"
+        ]
+      },
+      "oldAct": [
+        "EARMIC_EARPIECE_LOOPBACK"
+      ]
+    },
+    "MainMicToReceiver": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic",
+          "mmitest=on;outputdevice=receiver"
+        ],
+        "markedWords": "mainmictoReceiver_speakernotify"
+      },
+      "oldAct": [
+        "HMIC_EARPIECE_LOOPBACK",
+        "AUDIO_LOOPBACK"
+      ]
+    },
+    "MainMicToSpeaker": {
+      "support": false,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic",
+          "mmitest=on;outputdevice=speaker"
+        ]
+      },
+      "oldAct": [
+        "HMIC_HSPK_LOOPBACK"
+      ]
+    },
+    "MainMicToSpeaker1": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic",
+          "mmitest=on;outputdevice=speaker_left"
+        ],
+        "markedWords": "mainmictoSpeaker1_speakernotify"
+      },
+      "oldAct": [
+        "HMIC_HSPK_LOOPBACK"
+      ]
+    },
+    "MainMicToSpeaker2": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic",
+          "mmitest=on;outputdevice=speaker_right"
+        ],
+        "markedWords": "mainmictoSpeaker2_speakernotify"
+      },
+      "oldAct": [
+        "HMIC_HSPK_LOOPBACK"
+      ]
+    },
+    "HsMicToSpeaker": {
+      "support": false,
+      "action": "com.mmigroup.action.audioloop.HSMICTOSPEAKER",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic",
+          "mmitest=on;outputdevice=speaker"
+        ]
+      },
+      "oldAct": [
+        "EARMIC_HSPK_LOOPBACK"
+      ]
+    },
+    "SubMicToReceiver": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "audioConfig": [
+          "mmitest=on;loopline=submic_receiver"
+        ],
+        "markedWords": "submictoReceiver_speakernotify"
+      },
+      "oldAct": [
+        "PREMIC_LOOPBACK",
+        "PREMIC_EARPIECE_LOOPBACK"
+      ]
+    },
+    "SubMicToHeadPhone": {
+      "support": false,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;inputdevice=submic;",
+          "mmitest=on;outputdevice=headphone"
+        ],
+        "markedWords": "submictoHeadphone_speakernotify"
+      },
+      "oldAct": [
+        "PREMIC_EARSPK_LOOPBACK"
+      ]
+    },
+    "HsMicToSpeakerLeft": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.HSMICTOSPEAKERLEFT",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic",
+          "mmitest=on;outputdevice=speaker_left"
+        ]
+      }
+    },
+    "HsMicToSpeakerRight": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.HSMICTOSPEAKERRIGHT",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic",
+          "mmitest=on;outputdevice=speaker_right"
+        ]
+      }
+    },
+    "Speaker": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "isPlayOnce": false,
+        "music_name": [
+          "female_voice_english",
+          "male_voice_english",
+          "cant_hear"
+        ],
+        "music_rawResource_name": [
+          "girlenglish",
+          "voice_boy_english"
+        ],
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker"
+        ],
+        "markedWords": "hear_volume"
+      },
+      "oldAct": [
+        "SPEAKER",
+        "SPEAKER_TEST",
+        "AUDIO_LOUDSPEAKER"
+      ]
+    },
+    "LeftSpeaker": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "isPlayOnce": false,
+        "music_name": [
+          "female_voice_english",
+          "male_voice_english",
+          "cant_hear"
+        ],
+        "music_rawResource_name": [
+          "girlenglish",
+          "voice_boy_english"
+        ],
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left"
+        ],
+        "markedWords": "hear_volume"
+      }
+    },
+    "RightSpeaker": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "isPlayOnce": false,
+        "music_name": [
+          "female_voice_english",
+          "male_voice_english",
+          "cant_hear"
+        ],
+        "music_rawResource_name": [
+          "girlenglish",
+          "voice_boy_english"
+        ],
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right"
+        ],
+        "markedWords": "hear_volume"
+      }
+    },
+    "Receiver": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "isPlayOnce": false,
+        "music_name": [
+          "female_voice_english",
+          "male_voice_english",
+          "cant_hear"
+        ],
+        "music_rawResource_name": [
+          "girlenglish",
+          "voice_boy_english"
+        ],
+        "audioConfig": [
+          "mmitest=on;outputdevice=receiver"
+        ],
+        "markedWords": "hear_volume"
+      },
+      "oldAct": [
+        "AUDIO_HEADSET"
+      ]
+    },
+    "MainMic": {
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "saveFile",
+        "hasHeadPhone": false,
+        "music_file": "/data/vendor/fac_sources/FTM_AP/mic1.wav",
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic"
+        ],
+        "markedWords": "mainmictoFile"
+      }
+    },
+    "SubMic": {
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "saveFile",
+        "hasHeadPhone": false,
+        "music_file": "/data/vendor/fac_sources/FTM_AP/mic2.wav",
+        "audioConfig": [
+          "mmitest=on;inputdevice=submic"
+        ],
+        "markedWords": "submictoFile"
+      }
+    },
+    "mtkRecevier": {
+      "action": "com.mmigroup.action.audioloop.MTKATALOOPBACK",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.mtkRecevier",
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "is_show_list": false,
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic",
+          "mmitest=on;outputdevice=receiver"
+        ]
+      }
+    },
+    "FM": {
+      "support": true,
+      "action": "com.mmigroup.action.FM",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "volume_rate": 0.8,
+        "default_freguency": 87500
+      },
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.audioitem.FMBackgroundService",
+      "oldAct": [
+        "FM",
+        "fm_play"
+      ]
+    },
+    "HeadSet": {
+      "support": true,
+      "action": "com.mmigroup.action.HEADPHONE",
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN",
+          "HEADSETHOOK"
+        ]
+      },
+      "oldAct": [
+        "KEY_HEADSET"
+      ]
+    },
+    "FrontCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 1,
+        "camera_Rotation": 90,
+        "support_takepicture": true,
+        "takepicture_not_save_picture": true,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true
+      },
+      "oldAct": [
+        "CAMERA_FRONT"
+      ],
+      "requestComm": [
+        "FrontCamera"
+      ]
+    },
+    "FrontCamera2": {
+      "support": false
+    },
+    "MainCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": true,
+        "takepicture_not_save_picture": true,
+        "auto_takepicture": false,
+        "is_open_flashLight": false,
+        "support_camera_match": true,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true,
+        "camera_Rotation": -90
+      },
+      "oldAct": [
+        "CAMERA_BACK"
+      ],
+      "requestComm": [
+        "MainCamera"
+      ]
+    },
+    "MacroCamera": {
+      "support": false,
+      "action": "com.mmigroup.action.CAMERATESTTWO"
+    },
+    "Wide_angleCamera": {
+      "support": false,
+      "action": "com.mmigroup.action.CAMERATESTTWO"
+    },
+    "DigitalZoom": {
+      "support": false,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": false,
+        "takepicture_not_save_picture": false,
+        "is_zoom_test":true,
+        "auto_takepicture": false,
+        "is_open_flashLight": false,
+        "support_cameraCheck": true
+      }
+    },
+    "MainCamera2": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 2,
+        "camera_Rotation": -90,
+        "support_takepicture": true,
+        "takepicture_not_save_picture": true,
+        "auto_takepicture": false,
+        "is_open_flashLight": false,
+        "support_camera_match": true,
+        "support_cameraCheck": true,
+        "support_cameraCheck_for_8bit": true
+      },
+      "oldAct": [
+        "CAMERA_BACK"
+      ],
+      "requestComm": [
+        "MainCamera2"
+      ]
+    },
+    "DualBackCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 53,
+        "camera_Rotation": -90,
+        "support_takepicture": true,
+        "takepicture_not_save_picture": true,
+        "auto_takepicture": false,
+        "is_open_flashLight": false,
+        "support_camera_match": false,
+        "support_cameraCheck": false,
+        "support_cameraCheck_for_8bit": false
+      }
+    },
+    "PlatCameraZoom": {
+      "support": false,
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "is_zoom_test": true,
+        "support_cameraCheck": true
+      }
+    },
+    "PlatMainCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_cameraCheck": true
+      }
+    },
+    "PlatSubCamera": {
+      "support": false,
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 2,
+        "support_cameraCheck": true
+      }
+    },
+    "PlatFrontCamera": {
+      "support": false,
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 1,
+        "support_cameraCheck": true
+      }
+    },
+    "PlatCameraSwitch": {
+      "support": false,
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "is_switch_test": true,
+        "support_cameraCheck": true
+      }
+    },
+    "Flashlight": {
+      "support": true,
+      "action": "com.mmigroup.action.NODFLASHLIGHT",
+      "paramconfig": {
+        "cameraId": 0,
+        "is_flash": true,
+        "support_cool": true,
+        "support_warm": true,
+        "flashLightType": "back"
+      },
+      "oldAct": [
+        "Flashlight_on",
+        "FLASHLIGHT_WARM"
+      ]
+    },
+    "VersionInfo": {
+      "support": true,
+      "action": "com.mmigroup.action.FACTORYVERSION",
+      "paramconfig": {
+        "support_camera_match": true,
+        "AddInfo": {
+          "SecureBoot": "any",
+          "verifiedbootstate": "any",
+          "System_Verity": "any",
+          "CPUID": "any",
+          "TP": "any",
+          "RPMB": "any",
+          "CameraInfo": "any",
+          "BuildNumber": "any",
+          "BaseBandVersion": "any",
+          "KernelVersion": "any",
+          "LCM": "any"
+        },
+        "CameraList": [
+          "CME010QR-C,HKU1083",
+          "HHT5036A,GDA6451B1S-0P0J0",
+          "TABH28A,HKU1083",
+          "HHT5036A,HKU1083",
+          "HHT5036A,BA6530B1S-0P0J0"
+        ]
+      },
+      "oldAct": [
+        "SYSTEM_INFO"
+      ]
+    },
+    "KeyPad": {
+      "support": true,
+      "action": "com.mmigroup.action.KEYEVENT",
+      "paramconfig": {
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN",
+          "POWER"
+        ]
+      },
+      "oldAct": [
+        "KEY"
+      ]
+    },
+    "TouchPal": {
+      "support": true,
+      "action": "com.mmigroup.action.TOUCHPAL",
+      "oldAct": [
+        "TOUCH"
+      ]
+    },
+    "TouchPanel": {
+      "support": true,
+      "action": "com.mmigroup.action.TOUCHPANEL"
+    },
+    "TpOpenShort": {
+      "support": true,
+      "action": "com.mmigroup.action.TPOPENSHORT",
+      "oldAct": [
+        "TpOpenShort",
+        "tp_test"
+      ]
+    },
+    "LCD": {
+      "support": true,
+      "action": "com.mmigroup.action.LCD",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "R=2000",
+          "G=2000",
+          "B=2000",
+          "cross2=3000",
+          "cross3=3000",
+          "edgecheck2=3000",
+          "L0=3000",
+          "L64=3000",
+          "L127=3000",
+          "L255=3000",
+          "sub1dot127=1000",
+          "Transition_Gray=3000"
+        ]
+      },
+      "oldAct": [
+        "LCD"
+      ]
+    },
+    "LCD_R": {
+      "support": true,
+      "action": "com.mmigroup.action.LCD_R",
+      "automatic": true,
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_R"
+        ]
+      },
+      "oldAct": [
+        "LCD_R"
+      ]
+    },
+    "LCD_G": {
+      "support": true,
+      "action": "com.mmigroup.action.LCD_G",
+      "automatic": true,
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_G"
+        ]
+      },
+      "oldAct": [
+        "LCD_G"
+      ]
+    },
+    "LCD_B": {
+      "support": true,
+      "action": "com.mmigroup.action.LCD_B",
+      "automatic": true,
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_B"
+        ]
+      },
+      "oldAct": [
+        "LCD_B"
+      ]
+    },
+    "LCD_W": {
+      "support": true,
+      "action": "com.mmigroup.action.LCD_W",
+      "automatic": true,
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_W"
+        ]
+      },
+      "oldAct": [
+        "LCD_W"
+      ]
+    },
+    "LCD_BL": {
+      "support": true,
+      "action": "com.mmigroup.action.LCD_BL",
+      "automatic": true,
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_BL"
+        ]
+      },
+      "oldAct": [
+        "LCD_BK"
+      ]
+    },
+    "Backlight": {
+      "support": true,
+      "action": "com.mmigroup.action.BACKLIGHT",
+      "automatic": false,
+      "paramconfig": {
+        "brightness": [
+          1,
+          255
+        ]
+      },
+      "oldAct": [
+        "LCD_BACKLIGHT_ON",
+        "LCD_BACKLIGHT_HALF",
+        "LCD_BACKLIGHT"
+      ]
+    },
+    "Vibrator": {
+      "support": true,
+      "action": "com.mmigroup.action.VIBRATER",
+      "automatic": true,
+      "paramconfig": {
+        "is_auto_vibrate": true,
+        "shortInterval": [
+          200,
+          200
+        ],
+        "longInterval": [
+          500,
+          1000
+        ]
+      },
+      "oldAct": [
+        "VIBRATOR"
+      ]
+    },
+    "OTG": {
+      "support": true,
+      "action": "com.mmigroup.action.OTG",
+      "automatic": true,
+      "paramconfig": {
+        "is_show_storage": true
+      },
+      "oldAct": [
+        "USB_OTG"
+      ]
+    },
+    "RTC": {
+      "support": true,
+      "action": "com.mmigroup.action.RTC",
+      "automatic": true,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.RTC_Service"
+    },
+    "LightTEST": {
+      "support": true,
+      "action": "com.mmigroup.action.LightTEST",
+      "automatic": false,
+      "paramconfig": {
+        "Light": [
+          {
+            "type": "flashlight",
+            "name": "MainFlashlight",
+            "id": 0
+          },
+          {
+            "type": "backlight",
+            "name": "Backlight",
+            "dark": 10,
+            "bright": 255
+          }
+        ]
+      }
+    },
+    "LED_R": {
+      "support": false,
+      "action": "com.mmigroup.action.BATTERYLED_R",
+      "automatic": true,
+      "paramconfig": {
+        "is_auto_open_led": true,
+        "supportLed": [
+          "red"
+        ]
+      },
+      "oldAct": [
+        "LED_RED"
+      ]
+    },
+    "LED_G": {
+      "support": false,
+      "action": "com.mmigroup.action.BATTERYLED_G",
+      "automatic": true,
+      "paramconfig": {
+        "is_auto_open_led": true,
+        "supportLed": [
+          "green"
+        ]
+      },
+      "oldAct": [
+        "LED_GREEN"
+      ]
+    },
+    "LED_B": {
+      "support": false,
+      "action": "com.mmigroup.action.BATTERYLED_B",
+      "automatic": true,
+      "paramconfig": {
+        "is_auto_open_led": true,
+        "supportLed": [
+          "blue"
+        ]
+      },
+      "oldAct": [
+        "LED_BLUE"
+      ]
+    },
+    "LED_RGB": {
+      "support": false,
+      "action": "com.mmigroup.action.BATTERYLED_RGB",
+      "automatic": true,
+      "paramconfig": {
+        "is_auto_open_led": true,
+        "supportLed": [
+          "red",
+          "blue",
+          "green"
+        ]
+      },
+      "oldAct": [
+        "LED_WHITE"
+      ]
+    },
+    "Accelerometer": {
+      "support": true,
+      "action": "com.mmigroup.action.ACCELEROMETER",
+      "automatic": true,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": false
+      },
+      "oldAct": [
+        "GSENSOR",
+        "accelerate_cali"
+      ]
+    },
+    "Accelerometer_C": {
+      "support": true,
+      "action": "com.mmigroup.action.ACCELEROMETER",
+      "automatic": true,
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": true
+      },
+      "oldAct": [
+        "GSENSOR_C"
+      ]
+    },
+    "Gyroscope": {
+      "support": false,
+      "action": "com.mmigroup.action.GYROSCOPE",
+      "automatic": true,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "gyroscope_tolerance": 9,
+        "is_auto_calibrate": false
+      },
+      "oldAct": [
+        "GYROSCOPE"
+      ]
+    },
+    "Gyroscope_C": {
+      "support": false,
+      "action": "com.mmigroup.action.GYROSCOPE_C",
+      "automatic": true,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": false,
+        "gyroscope_tolerance": 9,
+        "is_auto_calibrate": true
+      },
+      "oldAct": [
+        "GYROSCOPE_C"
+      ]
+    },
+    "Proximity": {
+      "support": true,
+      "action": "com.mmigroup.action.PROXIMITY",
+      "automatic": true,
+      "paramconfig": {
+        "distance_tolerance": 0.5,
+        "do_calibration": {
+          "support": false,
+          "calibration_scheme": "mtk"
+        }
+      },
+      "oldAct": [
+        "PSENSOR_MMI",
+        "PSENSOR"
+      ]
+    },
+    "Proximity_C": {
+      "support": true,
+      "action": "com.mmigroup.action.PROXIMITY",
+      "automatic": true,
+      "paramconfig": {
+        "distance_tolerance": 0.5,
+        "rawData": {
+          "min": 50,
+          "max": 8000
+        },
+        "do_calibration": {
+          "support": true,
+          "4_cm_minus_no_cover_min": 5,
+          "3_cm_minus_no_cover_min": 20,
+          "3_cm_minus_4_cm_min": 8,
+          "3_cm": {
+            "min": 100,
+            "max": 1000
+          },
+          "4_cm": {
+            "min": 0,
+            "max": 1800
+          },
+          "noCover": {
+            "min": 0,
+            "max": 1000
+          },
+          "tpmodel_table": {
+            "EBBG": {
+              "WHITE": 0.56,
+              "BLACK": 0.57
+            },
+            "BOEN": {
+              "WHITE": 0.57,
+              "BLACK": 0.57
+            },
+            "CSOT": {
+              "WHITE": 0.58,
+              "BLACK": 0.58
+            },
+            "OFILM": {
+              "WHITE": 0.5677,
+              "BLACK": 0.5627
+            },
+            "LENS": {
+              "WHITE": 0.5622,
+              "BLACK": 0.5788
+            }
+          }
+        }
+      },
+      "oldAct": [
+        "PROXIMITY_C_NOCOVER",
+        "PROXIMITY_C_COVER"
+      ]
+    },
+    "Magnetic": {
+      "support": false,
+      "action": "com.mmigroup.action.MAGNETIC",
+      "automatic": true,
+      "paramconfig": {
+        "magnetism_tolerance": 30.0
+      },
+      "oldAct": [
+        "MSENSOR_MMI",
+        "MSENSOR"
+      ]
+    },
+    "Sar": {
+      "action": "com.mmigroup.action.Sar_SS2",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": true,
+      "paramconfig": {
+        "timeout_delay": 10000,
+        "wifi": false,
+        "tel": true
+      }
+    },
+    "Optical": {
+      "support": true,
+      "action": "com.mmigroup.action.OPTICAL",
+      "automatic": true,
+      "paramconfig": {
+        "lux_std": 297,
+        "lux_pet": 99,
+        "is_check_range": true,
+        "value_change_in": 20
+      },
+      "oldAct": [
+        "LSENSOR"
+      ]
+    },
+    "Optical_c": {
+      "support": true,
+      "action": "com.mmigroup.action.OPTICAL",
+      "automatic": true,
+      "paramconfig": {
+        "lux_std": 297,
+        "lux_pet": 99,
+        "is_check_range": false,
+        "do_calibration": true,
+        "coef": {
+          "min": 200,
+          "max": 3800
+        }
+      }
+    },
+    "Hall": {
+      "support": false,
+      "action": "com.mmigroup.action.HALL"
+    },
+    "NFC": {
+      "support": false,
+      "action": "com.mmigroup.action.NFC"
+    },
+    "fingerprint": {
+      "support": true,
+      "action": "com.mmigroup.action.FINGERPRINT",
+      "automatic": false,
+      "paramconfig": {
+        "is_need_nextButton": true,
+        "support_selfTest": true,
+        "support_checkBoardTest": true,
+        "support_enrolTest": true,
+        "support_identifyTest": true
+      },
+      "oldAct": [
+        "FINGERPRINT",
+        "fingerprint_test"
+      ]
+    },
+    "SMARTPA": {
+      "support": false,
+      "action": "com.mmigroup.action.SMARTPA"
+    },
+    "Infrared": {
+      "support": false,
+      "action": "com.mmigroup.action.INFRARED",
+      "automatic": false,
+      "paramconfig": {
+        "is_auto_transmit_infrared": true
+      },
+      "oldAct": [
+        "INFRARED_LAMP"
+      ]
+    },
+    "SdCard": {
+      "support": true,
+      "action": "com.mmigroup.action.SDCARD",
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.SDCardService",
+      "oldAct": [
+        "SDCARD"
+      ]
+    },
+    "DualSIMCard": {
+      "support": true,
+      "action": "com.mmigroup.action.DualSim",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.DualSimCardService",
+      "paramconfig": {
+        "SIM1": true,
+        "SIM2": true
+      },
+      "oldAct": [
+        "DUALSIMCARD",
+        "SIMCARD"
+      ]
+    },
+    "SIMCard": {
+      "support": true,
+      "action": "com.mmigroup.action.MAINSIMCARD",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.MainSimCardService",
+      "oldAct": [
+        "SIMCARD1",
+        "SIMCARD_DETECT",
+        "SIMCARD"
+      ]
+    },
+    "MainSIMCard": {
+      "support": true,
+      "action": "com.mmigroup.action.MAINSIMCARD",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.MainSimCardService",
+      "oldAct": [
+        "SIMCARD1",
+        "SIMCARD_DETECT",
+        "SIMCARD"
+      ]
+    },
+    "SubSIMCard": {
+      "support": true,
+      "action": "com.mmigroup.action.SUBSIMCARD",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.SubSimCardService",
+      "oldAct": [
+        "SIMCARD2"
+      ]
+    },
+    "Wlan": {
+      "support": true,
+      "action": "com.mmigroup.action.WLAN",
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.WlanService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "support_verify_mac": false
+      },
+      "oldAct": [
+        "WIFI"
+      ]
+    },
+    "WlanAP": {
+      "support": false,
+      "action": "com.mmigroup.action.WLAN",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.WlanService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "is_test_address": false,
+        "is_test_scan": true
+      }
+    },
+    "WlanAddress": {
+      "support": false,
+      "action": "com.mmigroup.action.WLAN",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.WlanService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "is_test_address": true,
+        "is_test_scan": false,
+        "support_verify_mac": true
+      }
+    },
+    "Bluetooth": {
+      "support": true,
+      "action": "com.mmigroup.action.BLUETOOTH",
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.BluetoothService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "support_verify_mac": false
+      },
+      "oldAct": [
+        "BLUETOOTH"
+      ]
+    },
+    "BluetoothAddress": {
+      "support": false,
+      "action": "com.mmigroup.action.BLUETOOTH",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.BluetoothService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "is_test_address": true,
+        "is_test_scan": false
+      }
+    },
+    "BluetoothDevice": {
+      "support": false,
+      "action": "com.mmigroup.action.BLUETOOTH",
+      "automatic": false,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.BluetoothService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "is_test_address": false,
+        "is_test_scan": true
+      }
+    },
+    "GPS": {
+      "support": true,
+      "action": "com.mmigroup.action.GPS",
+      "automatic": false,
+      "paramconfig": {
+        "is_show_location": false
+      },
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.GPSService"
+    },
+    "Battery": {
+      "support": true,
+      "action": "com.mmigroup.action.BATTERY",
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.BatteryService",
+      "paramconfig": {
+        "is_miui_battery": false,
+        "check_usb_is_unplug": true,
+        "is_show_batteryTemperature": true,
+        "Voltage": {
+          "min": 2500,
+          "max": 4500
+        },
+        "temp": {
+          "min": -20,
+          "max": 800
+        },
+        "ChargerVoltage": {
+          "min": 0,
+          "max": 0
+        },
+        "ChargerCurrent": {
+          "min": -3000000,
+          "max": 3500000
+        },
+        "errorBatteryId": [
+          "Fail",
+          "NULL",
+          "Not found",
+          "Generic_Battery"
+        ]
+      },
+      "oldAct": [
+        "BATTERY"
+      ]
+    },
+    "Pressure": {
+      "support": false,
+      "action": "com.mmigroup.action.PRESSURE"
+    },
+    "CALL112": {
+      "support": false,
+      "action": "com.mmigroup.action.CALL112"
+    },
+    "KeyPadLight": {
+      "support": false,
+      "action": "com.mmigroup.action.KEYPADLIGHT"
+    },
+    "MainMic2ToHeadPhone": {
+      "support": false,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+          "mmitest=on;inputdevice=mainmic2",
+          "mmitest=on;outputdevice=headphone"
+        ]
+      }
+    },
+    "SubMicToSpeaker": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+          "mmitest=on;inputdevice=submic",
+          "mmitest=on;outputdevice=speaker"
+        ],
+        "markedWords": "submictoSpeaker_speakernotify"
+      }
+    },
+    "SubMic2ToHeadPhone": {
+      "support": false,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK"
+    },
+    "MainMic2ToSpeaker": {
+      "support": false,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK"
+    },
+    "MainMic2ToReceiver": {
+      "support": true,
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK"
+    },
+    "Orientation": {
+      "support": false,
+      "action": "com.mmigroup.action.ORIENTATION"
+    },
+    "fishFrontCamera": {
+      "support": false
+    },
+    "fishBackCamera": {
+      "support": false
+    },
+    "TP_LockDown": {
+      "support": false
+    },
+    "ChargeIC": {
+      "support": true
+    },
+    "Sec_Dat": {
+      "support": true
+    },
+    "Hardware_ID": {
+      "support": true
+    },
+    "MultiTouch": {
+      "support": true,
+      "action": "com.mmigroup.action.MULTITOUCH",
+      "paramconfig": {
+        "pointNum": 4
+      }
+    },
+    "InfraredLed": {
+      "support": false
+    }
+  }
+}
+

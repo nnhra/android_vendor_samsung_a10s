@@ -1,0 +1,113 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Accelerometer",
+      "action": "com.mmigroup.action.ACCELEROMETER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": false,
+        "autoTest": {
+          "support_calibrate": true
+        }
+      }
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Sar",
+      "action": "com.mmigroup.action.SAR",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "wifi": true,
+        "tel" : true
+      }
+    },
+    { "showName": "Proximity",
+      "paramconfig": {
+        "distance_tolerance": 0.5
+      }
+    },
+    {
+      "showName": "ProximitySample",
+      "action": "com.mmigroup.action.PROXIMITY",
+      "support": false,
+      "paramconfig": {
+        "distance_tolerance": 0.5,
+        "supportdistance": [
+          "4cm",
+          "3cm"
+        ]
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "action": "com.mmigroup.action.GYROSCOPE",
+      "support": true,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "support_hand_test": false,
+        "gyroscope_tolerance": 9,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "action": "com.mmigroup.action.MAGNETIC",
+      "support": true,
+      "paramconfig": {
+        "magnetism_tolerance": 30.0
+      }
+    },
+    {
+      "showName": "Pressure",
+      "action": "com.mmigroup.action.PRESSURE",
+      "support": true,
+      "paramconfig": {
+        "pressureRange": {
+          "min": 300,
+          "max": 1100
+        }
+      }
+    },
+    {
+      "showName": "Hall",
+      "action": "com.mmigroup.action.HALL",
+      "support": true
+    },
+    {
+      "showName": "NFC",
+      "action": "com.mmigroup.action.NFC",
+      "support": true
+    },
+    {
+      "showName": "Temperature",
+      "action": "com.mmigroup.action.TEMPERATURE",
+      "support": true
+    },
+    {
+      "showName": "fingerprint",
+      "action": "com.mmigroup.action.FINGERPRINT",
+      "support": true,
+      "paramconfig": {
+        "support_selfTest": true,
+        "support_checkBoardTest": true,
+        "support_enrolTest": true,
+        "support_identifyTest": true
+      }
+    }
+  ]
+}

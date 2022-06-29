@@ -1,0 +1,126 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Accelerometer_MMI",
+      "action": "com.mmigroup.action.ACCELEROMETER_MMI",
+      "support": true,
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Accelerometer_C",
+      "action": "com.mmigroup.action.ACCELEROMETER_C",
+      "support": true,
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Optical",
+      "action": "com.mmigroup.action.OPTICAL",
+      "support": true,
+      "paramconfig": {
+        "lux_std": 297,
+        "lux_pet": 99,
+        "is_check_range": true
+      }
+    },
+    {
+      "showName": "Proximity",
+      "action": "com.mmigroup.action.PROXIMITY",
+      "support": true,
+      "paramconfig": {
+        "distance_tolerance": 0.5
+      }
+    },
+    {
+      "showName": "ProximitySample",
+      "action": "com.mmigroup.action.PROXIMITY",
+      "support": false,
+      "paramconfig": {
+        "distance_tolerance": 0.5,
+        "supportdistance": [
+        ]
+      }
+    },
+    {
+      "showName": "Gyroscope_MMI",
+      "action": "com.mmigroup.action.GYROSCOPE_MMI",
+      "support": false,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_hand_test": false,
+        "support_test": true,
+        "gyroscope_tolerance": 9,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Gyroscope_C",
+      "action": "com.mmigroup.action.GYROSCOPE_C",
+      "support": false,
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_test": true,
+        "support_hand_test": false,
+        "gyroscope_tolerance": 9,
+        "is_auto_calibrate": true
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "action": "com.mmigroup.action.MAGNETIC",
+      "support": true,
+      "paramconfig": {
+        "magnetism_tolerance": 0.1
+      }
+    },
+    {
+      "showName": "Pressure",
+      "action": "com.mmigroup.action.PRESSURE",
+      "support": false
+    },
+    {
+      "showName": "Hall",
+      "action": "com.mmigroup.action.HALL",
+      "support": false
+    },
+    {
+      "showName": "Temperature",
+      "action": "com.mmigroup.action.TEMPERATURE",
+      "support": false
+    },
+    {
+      "showName": "fingerprint",
+      "action": "com.mmigroup.action.FINGERPRINT",
+      "support": false,
+      "paramconfig": {
+        "support_selfTest": true,
+        "support_checkBoardTest": true,
+        "support_enrolTest": true,
+        "support_identifyTest": true
+      }
+    }
+  ]
+}

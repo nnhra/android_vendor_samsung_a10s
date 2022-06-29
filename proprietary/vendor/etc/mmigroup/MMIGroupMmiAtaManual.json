@@ -1,0 +1,44 @@
+{
+  "itemConfig": [
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "L255=2000",
+          "G=2000",
+          "B=2000",
+          "L127=2000"
+        ]
+      }
+    },
+    {
+      "showName": "SdCard",
+      "support_background_test": true
+    },
+    {
+      "showName": "MainSIMCard",
+      "support_background_test": true
+    },
+    {
+      "showName": "SubSIMCard",
+      "support_background_test": true
+    },
+    {
+      "showName": "GPS",
+      "support_background_test": true
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "Sar"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemConfig": [
+    {
+      "showName": "FrontCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "paramconfig": {
+        "cameraId": 1,
+        "support_takepicture": true,
+        "auto_takepicture": true,
+        "is_open_flashLight": false
+      }
+    },
+    {
+      "showName": "MainCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": true,
+        "auto_takepicture": true,
+        "is_open_flashLight": false
+      }
+    }
+  ]
+}

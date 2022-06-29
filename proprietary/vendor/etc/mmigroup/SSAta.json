@@ -1,0 +1,145 @@
+{
+  "itemConfig": [
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": true
+      }
+    },
+    {
+      "showName": "MainCamera",
+      "paramconfig": {
+        "support_takepicture": true
+      }
+    },
+    {
+      "showName": "DepthCamera",
+      "paramconfig": {
+        "support_takepicture": true
+      }
+    },
+    {
+      "showName": "PlatCameraZoom",
+      "paramconfig": {
+        "support_takepicture": true
+      }
+    },
+    {
+      "showName": "WideCamera",
+      "paramconfig": {
+        "support_takepicture": true
+      }
+    },
+    {
+      "showName": "MacroCamera",
+      "paramconfig": {
+        "support_takepicture": true
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "paramconfig": {
+        "support_takepicture": true
+      }
+    },
+    {
+      "showName": "LCDCrossImg"
+    },
+    {
+      "showName": "RGBPDISP"
+    },
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "SdCard",
+      "support_background_test": true
+    },
+    {
+      "showName": "DualSIMCard",
+      "support_background_test": true
+    },
+    {
+      "showName": "Battery",
+      "support_background_test": false,
+      "automatic": true,
+      "paramconfig": {
+        "support_afc_charge": false,
+        "check_usb_is_unplug": false,
+        "support_typec_check": false
+      }
+    },
+    {
+      "showName": "Optical",
+      "paramconfig": {
+        "lux_std": 500,
+        "lux_pet": 99,
+        "is_check_range": true,
+        "value_change_in": 20
+      }
+    },
+    {
+      "showName": "Proximity_C",
+      "paramconfig": {
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "FM"
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "Bluetooth",
+      "support_background_test": true
+    },
+    {
+      "showName": "Wlan",
+      "support_background_test": true
+    },
+    {
+      "showName": "GPS",
+      "support_background_test": true
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "Accelerometer_C",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_angle45": false,
+        "support_angleneg45": false
+      }
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "HeadSet",
+      "action": "com.mmigroup.action.HEADPHONE",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "TouchPal"
+    }
+  ]
+}

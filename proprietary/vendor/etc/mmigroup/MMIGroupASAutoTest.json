@@ -1,0 +1,397 @@
+{
+  "itemConfig": [
+    {
+      "showName": "ASLCDActivity",
+      "action": "com.mmigroup.action.ASLCDACTIVITY",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_LCD"
+      }
+    },
+    {
+      "showName": "SMARTPA",
+      "action": "com.mmigroup.action.SMARTPA",
+      "support": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_LOUDSPEAKERPACALIBRATION"
+      }
+    },
+    {
+      "showName": "NFC",
+      "action": "com.mmigroup.action.NFC",
+      "support": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_NFC"
+      }
+    },
+    {
+      "showName": "ASFlashLife",
+      "action": "com.mmigroup.action.ASFLSHLIFE",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.DIAG_FLASHLIFE"
+      }
+    },
+    {
+      "showName": "DualSIMCard",
+      "action": "com.mmigroup.action.DualSim",
+      "support": true,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.DualSimCardService",
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_SIMCARD"
+      }
+    },
+    {
+      "showName": "TpOpenShort",
+      "action": "com.mmigroup.action.TPOPENSHORT",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_TOUCHAUTO"
+      }
+    },
+    {
+      "showName": "ASDeviceInfo",
+      "action": "com.mmigroup.action.ASDEVICEINFO",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_DEVICEINFO"
+      }
+    },
+    {
+      "showName": "BluetoothAddress",
+      "action": "com.mmigroup.action.BLUETOOTH",
+      "support": true,
+      "support_background_test": true,
+      "background_Service": "com.factory.mmigroup.item.BluetoothService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_BTMAC",
+        "is_test_address": true,
+        "is_test_scan": false
+      }
+    },
+    {
+      "showName": "BluetoothAddress",
+      "action": "com.mmigroup.action.BLUETOOTH",
+      "support": true,
+      "support_background_test": true,
+      "background_Service": "com.factory.mmigroup.item.BluetoothService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_BT",
+        "is_test_address": false,
+        "is_test_scan": true
+      }
+    },
+    {
+      "showName": "MainCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_REARCAMERA",
+        "cameraId": 0,
+        "support_takepicture": true,
+        "auto_takepicture": true,
+        "is_open_flashLight": true,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "MainCamera2",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_REARSUBCAMERA",
+        "cameraId": 2,
+        "support_takepicture": true,
+        "auto_takepicture": true,
+        "is_open_flashLight": true,
+        "support_cameraCheck": true
+      },
+      "S98506": {
+        "support": false
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_FRONTCAMERA",
+        "cameraId": 1,
+        "support_takepicture": true,
+        "auto_takepicture": true,
+        "is_open_flashLight": true,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "MainMicToReceiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_PHONECALL",
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop",
+        "audioConfig": [
+          "SET_MIC_CHOOSE=1",
+          "mmitest=on;inputdevice=mainmic;outputdevice=receiver"
+        ],
+        "markedWords": "mainmictoReceiver_speakernotify"
+      }
+    },
+    {
+      "showName": "MainMicToSpeaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_MIC",
+        "volume_rate": 1.0,
+        "loop_type": "manual_loop1",
+        "audioConfig": [
+          "SET_MIC_CHOOSE=1",
+          "mmitest=on;inputdevice=mainmic;outputdevice=speaker"
+        ],
+        "markedWords": "mainmictoSpeaker_speakernotify"
+      }
+    },
+    {
+      "showName": "LightTEST",
+      "action": "com.mmigroup.action.LightTEST",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_LED",
+        "Light": [
+          {
+            "type": "batteryLed",
+            "name": "batteryled"
+          }
+        ]
+      }
+    },
+    {
+      "showName": "HeadSet",
+      "action": "com.mmigroup.action.HEADPHONE",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_HEADSET",
+        "volume_rate": 0.5,
+        "is_test_type_c": false,
+        "key_show_name": [
+          "last",
+          "next",
+          "start_and_stop"
+        ],
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN",
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "SdCard",
+      "action": "com.mmigroup.action.SDCARD",
+      "support": true,
+      "support_background_test": true,
+      "background_Service": "com.factory.mmigroup.item.SDCardService",
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_TFCARD"
+      }
+    },
+    {
+      "showName": "WlanAP",
+      "action": "com.mmigroup.action.WLAN",
+      "support": true,
+      "support_background_test": true,
+      "background_Service": "com.factory.mmigroup.item.WlanService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_WIFI",
+        "is_test_address": false,
+        "is_test_scan": true
+      }
+    },
+    {
+      "showName": "WlanAddress",
+      "action": "com.mmigroup.action.WLAN",
+      "support": true,
+      "support_background_test": true,
+      "background_Service": "com.factory.mmigroup.item.WlanService",
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_WLANMAC",
+        "is_test_address": true,
+        "is_test_scan": false
+      }
+    },
+    {
+      "showName": "SdCard",
+      "action": "com.mmigroup.action.SDCARD",
+      "support": true,
+      "support_background_test": true,
+      "background_Service": "com.factory.mmigroup.item.SDCardService",
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_TFCARDSUPPORT"
+      }
+    },
+    {
+      "showName": "Charge",
+      "action": "com.mmigroup.action.BATTERY",
+      "support": true,
+      "support_background_test": true,
+      "background_Service": "com.factory.mmigroup.item.BatteryService",
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_CHARGER",
+        "is_miui_charge": false,
+        "check_usb_is_unplug": false,
+        "Voltage": {
+          "min": 2500,
+          "max": 4500
+        },
+        "temp": {
+          "min": -20,
+          "max": 800
+        },
+        "ChargerVoltage": {
+          "min": 0,
+          "max": 0
+        },
+        "ChargerCurrent": {
+          "min": -3000,
+          "max": 1500
+        }
+      }
+    },
+    {
+      "showName": "TouchPal",
+      "action": "com.mmigroup.action.TOUCHPAL",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_TOUCHPANEL"
+      }
+    },
+    {
+      "showName": "KeyPad",
+      "action": "com.mmigroup.action.KEYEVENT",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_KEY",
+        "keyCode": [
+          "VOLUME_UP",
+          "VOLUME_DOWN",
+          "POWER"
+        ]
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.VIBRATER_ASAUTO",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_VIBRATION",
+        "is_auto_vibrate": false,
+        "randomVibSupport": false,
+        "shortInterval": [
+          200,
+          1000
+        ],
+        "longInterval": [
+          200,
+          3000
+        ],
+        "randomInterval": [
+          6,
+          400,
+          400
+        ]
+      }
+    },
+    {
+      "showName": "Proximity",
+      "action": "com.mmigroup.action.PROXIMITY",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_PROXIMITYSENSOR",
+        "distance_tolerance": 0.5
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "action": "com.mmigroup.action.ACCELEROMETER",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_ACCELEROMETER",
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "data_suffix_rate": 1000,
+        "gravity_45_degree_x": -4.9000,
+        "gravity_45_degree_y": 4.9000,
+        "gravity_45_degree_z": 6.9340,
+        "gravity_45_degree_tolerance": 0.71,
+        "gravity_axial_limit": 1.5,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Gyroscope",
+      "action": "com.mmigroup.action.GYROSCOPE",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_GYRO",
+        "support_calibrate": false,
+        "support_test": true,
+        "gyroscope_tolerance": 9,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "fingerprint",
+      "action": "com.mmigroup.action.FINGERPRINT",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_FINGERPRINT",
+        "support_selfTest": true,
+        "support_checkBoardTest": true,
+        "support_enrolTest": false,
+        "support_identifyTest": false
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "action": "com.mmigroup.action.MAGNETIC",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_MAGNETISM",
+        "support_calibrate": false,
+        "support_disk": true,
+        "magnetism_tolerance": 30.0
+      }
+    },
+    {
+      "showName": "Optical",
+      "action": "com.mmigroup.action.OPTICAL",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.TEST_LIGHTSENSOR",
+        "lux_std": 297,
+        "lux_pet": 99,
+        "is_check_range": false
+      }
+    },
+    {
+      "showName": "ASRebootInfo",
+      "action": "com.mmigroup.action.ASRebootInfo",
+      "support": true,
+      "paramconfig": {
+        "aftersale_autotest": "action.mi.autotest.DIAG_STABILITY"
+      }
+    }
+  ]
+}

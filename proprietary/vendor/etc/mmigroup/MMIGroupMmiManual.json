@@ -1,0 +1,152 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": false
+      }
+    },
+    {
+      "showName": "LCD",
+      "action": "com.mmigroup.action.LCDUP",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "auto_switch": false,
+        "first_three_delay": 2000,
+        "lcd_pic": [
+          "R=2000",
+          "G=2000",
+          "B=2000",
+          "L255=2000",
+          "L64=2000",
+          "L0=2000",
+          "Transition_Gray=2000"
+        ]
+      }
+    },
+    {
+      "showName": "MainCamera"
+    },
+	{
+      "showName": "MainCamera2"
+    },
+	{
+      "showName": "DualBackCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "LightTEST"
+    },
+    {
+      "showName": "Speaker"
+    },
+    {
+      "showName": "Receiver"
+    },
+    {
+      "showName": "MainMicToReceiver"
+    },
+    {
+      "showName": "SubMicToSpeaker"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone"
+    },
+    {
+      "showName": "FM"
+    },
+    {
+      "showName": "TouchPal"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "SdCard",
+      "support_background_test": true
+    },
+    {
+      "showName": "DualSIMCard",
+      "support_background_test": true
+    },
+    {
+      "showName": "Wlan",
+      "support_background_test": true
+    },
+    {
+      "showName": "Bluetooth",
+      "support_background_test": true
+    },
+    {
+      "showName": "GPS",
+      "support_background_test": true
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Proximity_C",
+      "action": "com.mmigroup.action.PROXIMITY_XM",
+      "support": true,
+      "automatic": true,
+      "paramconfig": {
+        "do_calibration": {
+          "support": true,
+          "calibration_scheme": "mtk",
+          "3_cm": {
+            "min": 0,
+            "max": 99999
+          },
+          "3_cm_offset": {
+            "min": 100,
+            "max": 99999
+          },
+          "noCover": {
+            "min": 50,
+            "max": 8000
+          }
+        }
+      }
+    },
+    {
+      "showName": "fingerprint"
+    },
+    {
+      "showName": "Sar"
+    }
+  ]
+}

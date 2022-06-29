@@ -1,0 +1,37 @@
+{
+  "itemConfig": [
+    {
+      "showName": "MainCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": true,
+        "auto_takepicture": false,
+        "is_open_flashLight": true
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "action": "com.mmigroup.action.MAINCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 1,
+        "support_takepicture": true,
+        "auto_takepicture": false,
+        "is_open_flashLight": true
+      }
+    },
+    {
+      "showName": "Flashlight",
+      "action": "com.mmigroup.action.FLASHLIGHT",
+      "support": true,
+      "paramconfig": {
+        "cameraId": 0,
+        "is_flash": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "itemConfig": [
+    {
+      "showName": "PlatMainCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.PlatMainCamera",
+        "picture_dir": "sdcard/CameraCal/",
+        "picture_name": "MainCameraCal.jpg",
+        "auto_takepicture_delay": 2000,
+        "is_biaoding": true,
+        "cameraId": 0,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "PlatSubCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.PlatSubCamera",
+        "picture_dir": "sdcard/CameraCal/",
+        "picture_name": "SubCameraCal.jpg",
+        "auto_takepicture_delay": 2000,
+        "debug_aftuning_minth": 20000000,
+        "is_biaoding": true,
+        "cameraId": 2,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "MainCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.MainCamera",
+        "picture_dir": "sdcard/fac_sources/Camera/",
+        "picture_name": "BackATA.jpg",
+        "auto_takepicture_delay": 2000,
+        "debug_aftuning_minth": 20000000,
+        "cameraId": 0,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "MainCamera2",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.MainCamera2",
+        "picture_dir": "sdcard/fac_sources/Camera/",
+        "picture_name": "BackATA2.jpg",
+        "auto_takepicture_delay": 2000,
+        "debug_aftuning_minth": 20000000,
+        "cameraId": 2,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.FrontCamera",
+        "picture_dir": "sdcard/fac_sources/Camera/",
+        "picture_name": "FrontATA.jpg",
+        "auto_takepicture_delay": 2000,
+        "debug_aftuning_minth": 20000000,
+        "cameraId": 1,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "HsMicToReceiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.HsMicToReceiver",
+        "volume_rate": 1.0,
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "SET_LOOPBACK_TYPE=2,1"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToSpeaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.HsMicToSpeaker",
+        "volume_rate": 1.0,
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "SET_LOOPBACK_TYPE=2,3"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.HsMicToHeadPhone",
+        "volume_rate": 0.5,
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "SET_LOOPBACK_TYPE=2,2"
+        ],
+        "markedWords": "hsmictoheadphone_speakernotify"
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.MainMicToHeadPhone",
+        "volume_rate": 0.5,
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "SET_LOOPBACK_TYPE=1,2"
+        ],
+        "markedWords": "mainmictoHeadphone_speakernotify"
+      }
+    },
+
+    {
+      "showName": "Receiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.Receiver",
+        "volume_rate": 1.0,
+        "is_show_list": false,
+        "audioConfig": [
+          "mmitest=on;outputdevice=receiver"
+        ]
+      }
+    },
+    {
+      "showName": "LeftSpeaker"
+    },
+    {
+      "showName": "RightSpeaker"
+    },
+    {
+      "showName": "MainMicToSpeaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.MainMicToSpeaker",
+        "volume_rate": 1.0,
+        "hasHeadPhone": false,
+        "audioConfig": [
+          "SET_LOOPBACK_TYPE=1,3"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToReceiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.MainMicToReceiver",
+        "volume_rate": 1.0,
+        "hasHeadPhone": false,
+        "audioConfig": [
+          "SET_LOOPBACK_TYPE=1,1"
+        ]
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.VIBRATER",
+      "support": true,
+      "paramconfig": {
+        "adb_ata": "action.adb.ata.Vibrator",
+        "is_auto_vibrate": true,
+        "randomVibSupport": false,
+        "shortInterval": [
+          200,
+          200
+        ],
+        "longInterval": [
+          200,
+          1000
+        ],
+        "randomInterval": [
+          6,
+          400,
+          400
+        ]
+      }
+    }
+  ]
+}

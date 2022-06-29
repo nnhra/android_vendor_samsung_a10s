@@ -1,0 +1,164 @@
+{
+  "itemConfig": [
+    {
+      "showName": "LeftSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "RightSpeaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Speaker",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/spk.wav"
+      }
+    },
+    {
+      "showName": "Receiver",
+      "paramconfig": {
+        "is_show_list": false,
+        "isPlayOnce": true,
+        "music_file": "/vendor/etc/mmigroup/rec3db.wav"
+      }
+    },
+    {
+      "showName": "MainMic"
+    },
+	{
+      "showName": "SubMic"
+    },
+    {
+      "showName": "MainMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "hasHeadPhone": true,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=mainmic_headphone"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "hasHeadPhone": true,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=hsmic_headphone"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToReceiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "hasHeadPhone": true,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=hsmic_receiver"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToReceiver",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "hasHeadPhone": false,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=mainmic_receiver"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToSpeaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "hasHeadPhone": false,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=mainmic_speaker"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToSpeaker1",
+      "paramconfig": {
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=mainmic_speakerleft"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToSpeaker2",
+      "paramconfig": {
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=mainmic_speakerright"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToSpeaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "hasHeadPhone": true,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=hsmic_speaker"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToSpeakerLeft",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "hasHeadPhone": true,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=headmic_speakerleft"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToSpeakerRight",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "hasHeadPhone": true,
+        "loop_type": "none",
+        "audioConfig": [
+          "mmitest=on;loopline=headmic_speakerright"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "GPS",
+      "support_background_test": true
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Magnetic"
+    },
+    {
+      "showName": "NFC"
+    },
+    {
+      "showName": "Sar1"
+    },
+    {
+      "showName": "Sar2"
+    },
+    {
+      "showName": "Battery",
+      "paramconfig": {
+        "support_typec_check": true
+      }
+    }
+  ]
+}

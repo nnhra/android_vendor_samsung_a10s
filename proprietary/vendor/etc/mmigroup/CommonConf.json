@@ -1,0 +1,106 @@
+{
+  "item": {
+    "Receiver": {
+      "support": true,
+      "P81080": {
+        "support": false
+      }
+    },
+    "FM": {
+      "support": true
+    },
+    "HeadPhone": {
+      "support": true
+    },
+    "Speaker": {
+      "support": true
+    },
+    "LeftSpeaker": {
+      "support": true
+    },
+    "RightSpeaker": {
+      "support": true
+    },
+    "MainMic": {
+      "support": true
+    },
+    "MainMic2": {
+      "support": true
+    },
+    "SubMic": {
+      "support": false
+    },
+    "SubMic2": {
+      "support": false
+    },
+    "SMARTPA": {
+      "support": true
+    },
+    "FrontCamera": {
+      "support": true
+    },
+    "FrontCamera2": {
+      "support": false
+    },
+    "MainCamera": {
+      "support": true
+    },
+    "MainCamera2": {
+      "support": true
+    },
+    "DualBackCamera": {
+      "support": true
+    },
+    "Wide_angleCamera": {
+      "support": true
+    },
+    "MacroCamera": {
+      "support": true
+    },
+    "Flashlight": {
+      "support": true
+    },
+    "Accelerometer": {
+      "support": true
+    },
+    "Gyroscope": {
+      "support": true
+    },
+    "Proximity": {
+      "support": true
+    },
+    "Magnetic": {
+      "support": true
+    },
+    "Sar": {
+      "support": true
+    },
+    "Sar1": {
+      "support": true
+    },
+    "Sar2": {
+      "support": true
+    },
+    "Optical": {
+      "support": true
+    },
+    "Hall": {
+      "support": true
+    },
+    "NFC": {
+      "support": true
+    },
+    "fingerprint": {
+      "support": true
+    },
+    "Infrared": {
+      "support": false
+    },
+    "LED": {
+      "support": false
+    },
+    "Vibrator": {
+      "support": true
+    }
+  }
+}
