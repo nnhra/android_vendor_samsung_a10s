@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" Environment="TEE" platform="项目信息: 请填写项目信息">
+  <feature>
+    <unique_finger cname="重复手指录入判断开关" default="true" desc="默认：true" format="boolean" useable="true">false</unique_finger>
+    <key_emulation_mode cname="按键功能模式选择" default="0" desc="按键功能模式选择。默认：禁用按键功能(0)" format="array" options="禁用按键功能(0)|仅传统单击(1)|手指按下报单击(2)|手指抬起报单击或长按(3)|仅长按(4)" useable="false" values="0|1|2|3|4">0</key_emulation_mode>
+    <navigation cname="导航功能开关" default="false" desc="默认：false" format="boolean" useable="false">true</navigation>
+  </feature>
+  <algo>
+    <enrolling_num_max cname="单模板录入最大次数" default="15" desc="大于10。默认: 15" format="array" options="10次|11次|12次|13次|14次|15次|16次|17次|18次|19次|20次" useable="true" values="10|11|12|13|14|15|16|17|18|19|20">16</enrolling_num_max>
+    <enrolling_samples cname="单模板录入次数" default="0" desc="不得大于单模板录入最大次数。默认: 动态计算" format="array" options="动态计算|12次|13次|14次|15次" useable="true" values="0|12|13|14|15">16</enrolling_samples>
+  </algo>
+  <navigation>
+	<mode cname="导航方向模式选择" default="3" desc="导航方向模式选择。默认：SF_NAV_MODE_AUTO" format="array" options="SF_NAV_MODE_ALL|SF_NAV_MODE_LMR|SF_NAV_MODE_UMD|SF_NAV_MODE_AUTO" useable="false" values="0|1|2|3">2</mode>
+	<direct cname="导航方向映射" default="UDLR" desc="导航方向映射。默认：UDLR" format="string" useable="false">LRUD</direct>
+  </navigation> 
+</sunwave:Config>
