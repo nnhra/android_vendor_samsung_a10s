@@ -9,4 +9,4 @@ Support Channel : https://t.me/itzkaguyaproject
 
 Support Group : htps://t.me/itzkaguyaproject_chat
 
-                https://t.me/a107x
+A10s Official Group : https://t.me/a107x
