@@ -7,6 +7,6 @@ Board : mt6765
 
 Support Channel : https://t.me/itzkaguyaproject
 
-Support Group : htps://t.me/itzkaguyaproject_chat
+Support Group : https://t.me/itzkaguyaproject_chat
 
 A10s Official Group : https://t.me/a107x
