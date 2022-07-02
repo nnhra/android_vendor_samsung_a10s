@@ -3,7 +3,9 @@ Based from A107FXXU8BUC2 XID Firmware
 
 Device Codename : a10sxx
 
-Board : mt6765
+SOC : mt6765
+
+Board : S96116CA1
 
 Support Channel : https://t.me/itzkaguyaproject
 
