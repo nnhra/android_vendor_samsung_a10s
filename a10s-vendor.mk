@@ -392,7 +392,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10s/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/samsung/a10s/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/samsung/a10s/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
-    vendor/samsung/a10s/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
     vendor/samsung/a10s/proprietary/vendor/etc/fstab.mt6762:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6762 \
     vendor/samsung/a10s/proprietary/vendor/etc/fstab.mt6765:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6765 \
     vendor/samsung/a10s/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
