@@ -1,0 +1,11 @@
+
+on post-fs
+    chown system system /dev/sunwave_fp
+    chmod 664 /dev/sunwave_fp
+
+service swfingerprint-hal-1.0 /vendor/bin/hw/vendor.sw.swfingerprint@1.0-service
+    class late_start
+    user system
+    group system
+    
+    

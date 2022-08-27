@@ -13,7 +13,7 @@
 
 /dev/block/platform/bootdevice/by-name/product /product ext4 ro wait,,avb,first_stage_mount
 # 145 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
-/dev/block/platform/bootdevice/by-name/userdata	/data	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,quota,reservedsize=128M,,resize,,fileencryption=aes-256-xts
+/dev/block/platform/bootdevice/by-name/userdata	/data	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,quota,reservedsize=128M,,resize,,encryptable=aes-256-xts
 
 /dev/block/platform/bootdevice/by-name/cache	/cache	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
 

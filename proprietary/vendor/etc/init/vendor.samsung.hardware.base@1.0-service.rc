@@ -1,0 +1,4 @@
+service vendor.base-hal-1-0 /vendor/bin/hw/vendor.samsung.hardware.base@1.0-service
+class hal
+user system
+group system

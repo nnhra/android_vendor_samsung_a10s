@@ -1,0 +1,94 @@
+service interfaces.factoryInterface@1.0-service /vendor/bin/hw/interfaces.factoryInterface@1.0-service
+    class late_start
+    user system
+    group system sdcard_rw sdcard_r media_rw
+    seclabel u:r:factory_services:s0
+
+#service create_factory_persist_file /vendor/bin/create_factory_persist_file
+#    class late_start
+#    user root
+#    group system
+#    seclabel u:r:factory_services:s0
+#    oneshot
+
+service create_factory_efs_file /vendor/bin/create_factory_efs_file
+    class late_start
+    user root
+    group system
+    seclabel u:r:factory_services:s0
+    oneshot
+
+
+
+on post-fs-data
+    mkdir /data/vendor/fac_sources/ -p
+    chown system system /data/vendor/fac_sources
+    chmod 0777 /data/vendor/fac_sources
+
+
+service check_keymaster_factory /vendor/bin/check_keymaster
+    class main
+    user system
+    group system media mediadrm drmrpc
+    oneshot
+    disabled
+    seclabel u:r:check_keymaster:s0
+
+service check_keybox_factory /vendor/bin/check_keybox
+    class main
+    user system
+    group system media mediadrm drmrpc
+    oneshot
+    disabled
+    seclabel u:r:check_keybox:s0
+
+    
+    
+##+bug 342273,20180403,haozhenghui,add,add ctrl modem status
+service muxreport.close /vendor/bin/muxreport 3
+    class core
+    user radio
+    group radio cache inet misc
+    disabled
+    oneshot
+    seclabel u:r:muxreport:s0
+
+
+service muxreport.open /vendor/bin/muxreport 4
+    class core
+    user radio
+    group radio cache inet misc
+    disabled
+    oneshot
+    seclabel u:r:muxreport:s0
+
+
+##-bug 342273,20180403,haozhenghui,add,add ctrl modem status
+
+#for wlan and bt ftmdaemon test
+on property:vendor.ptt_ffbm_bt=start
+    start ffbm_bt
+
+on property:vendor.ptt_ffbm_bt=stop
+    stop ffbm_bt
+
+on property:vendor.ptt_ffbm_wifi=start
+    #ifconfig wlan0 up
+    write /sys/module/wlan/parameters/con_mode 5
+    start ffbm_wifi
+
+on property:vendor.ptt_ffbm_wifi=stop
+    write /sys/module/wlan/parameters/con_mode 0
+    stop ffbm_wifi
+
+service ffbm_bt /vendor/bin/ftmdaemon -n -dd
+    user system
+    group system
+    seclabel u:r:hal_bluetooth_default:s0
+    disabled
+
+service ffbm_wifi /vendor/bin/ftmdaemon -n -dd
+    user system
+    group system
+    seclabel u:r:wcnss_service:s0
+    disabled

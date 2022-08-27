@@ -1,0 +1,3 @@
+on post-fs-data
+    mkdir /data/vendor/anc_face_unlock 0775 system system
+    mkdir /data/vendor/anc_face_unlock/images 0775 system system
