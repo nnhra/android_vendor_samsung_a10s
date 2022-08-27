@@ -1,0 +1,5 @@
+service vendor.wifi_hal_ext /vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service
+    class hal
+    capabilities NET_ADMIN NET_RAW SYS_MODULE
+    user wifi
+    group wifi gps
