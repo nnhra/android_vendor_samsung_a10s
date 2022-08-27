@@ -1348,13 +1348,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/wosface.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/wosface.hardware.biometrics.face@1.0.so	\
 	vendor/samsung/a10s/proprietary/vendor/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm/etc/NOTICE.xml.gz	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/AccentColorBlack/AccentColorBlackOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AccentColorBlack/AccentColorBlackOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/AccentColorCinnamon/AccentColorCinnamonOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AccentColorCinnamon/AccentColorCinnamonOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/AccentColorGreen/AccentColorGreenOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AccentColorGreen/AccentColorGreenOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/AccentColorOcean/AccentColorOceanOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AccentColorOcean/AccentColorOceanOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/AccentColorOrchid/AccentColorOrchidOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AccentColorOrchid/AccentColorOrchidOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/AccentColorPurple/AccentColorPurpleOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AccentColorPurple/AccentColorPurpleOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/AccentColorSpace/AccentColorSpaceOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/AccentColorSpace/AccentColorSpaceOverlay.apk	\
 	vendor/samsung/a10s/proprietary/vendor/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk	\
 	vendor/samsung/a10s/proprietary/vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk	\
 	vendor/samsung/a10s/proprietary/vendor/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk	\
