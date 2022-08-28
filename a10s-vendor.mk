@@ -1348,49 +1348,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/wosface.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/wosface.hardware.biometrics.face@1.0.so	\
 	vendor/samsung/a10s/proprietary/vendor/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm/etc/NOTICE.xml.gz	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/framework-res__auto_generated_rro_vendor.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/framework-res__auto_generated_rro_.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/FrameworkResOverlay/FrameworkResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworkResOverlay/FrameworkResOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/GmsConfigOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GmsConfigOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/GmsGsaConfigOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GmsGsaConfigOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/GoogleExtServicesConfigOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GoogleExtServicesConfigOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/GooglePermissionControllerFrameworkOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GooglePermissionControllerFrameworkOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/GooglePermissionControllerOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/GooglePermissionControllerOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackCircularAndroid/IconPackCircularAndroidOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackCircularAndroid/IconPackCircularAndroidOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackCircularLauncher/IconPackCircularLauncherOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackCircularLauncher/IconPackCircularLauncherOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackCircularSettings/IconPackCircularSettingsOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackCircularSettings/IconPackCircularSettingsOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackCircularSystemUI/IconPackCircularSystemUIOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackCircularSystemUI/IconPackCircularSystemUIOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackCircularThemePicker/IconPackCircularThemePickerOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackCircularThemePicker/IconPackCircularThemePickerOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackFilledAndroid/IconPackFilledAndroidOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackFilledAndroid/IconPackFilledAndroidOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackFilledLauncher/IconPackFilledLauncherOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackFilledLauncher/IconPackFilledLauncherOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackFilledSettings/IconPackFilledSettingsOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackFilledSettings/IconPackFilledSettingsOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackFilledSystemUI/IconPackFilledSystemUIOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackFilledSystemUI/IconPackFilledSystemUIOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackFilledThemePicker/IconPackFilledThemePickerOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackFilledThemePicker/IconPackFilledThemePickerOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackRoundedAndroid/IconPackRoundedAndroidOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackRoundedAndroid/IconPackRoundedAndroidOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackRoundedLauncher/IconPackRoundedLauncherOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackRoundedLauncher/IconPackRoundedLauncherOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackRoundedSettings/IconPackRoundedSettingsOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackRoundedSettings/IconPackRoundedSettingsOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconPackRoundedSystemUI/IconPackRoundedSystemUIOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconPackRoundedSystemUI/IconPackRoundedSystemUIOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconShapeRoundedRect/IconShapeRoundedRectOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconShapeRoundedRect/IconShapeRoundedRectOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconShapeSquare/IconShapeSquareOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconShapeSquare/IconShapeSquareOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconShapeSquircle/IconShapeSquircleOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconShapeSquircle/IconShapeSquircleOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/IconShapeTeardrop/IconShapeTeardropOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/IconShapeTeardrop/IconShapeTeardropOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarMode2Button/NavigationBarMode2ButtonOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarMode2Button/NavigationBarMode2ButtonOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGesturalNoHintExtraWideBack/NavigationBarModeGesturalNoHintOverlayExtraWideBack.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGesturalNoHintExtraWideBack/NavigationBarModeGesturalNoHintOverlayExtraWideBack.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGesturalNoHintNarrowBack/NavigationBarModeGesturalNoHintOverlayNarrowBack.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGesturalNoHintNarrowBack/NavigationBarModeGesturalNoHintOverlayNarrowBack.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGesturalNoHint/NavigationBarModeGesturalNoHintOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGesturalNoHint/NavigationBarModeGesturalNoHintOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGesturalNoHintWideBack/NavigationBarModeGesturalNoHintOverlayWideBack.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGesturalNoHintWideBack/NavigationBarModeGesturalNoHintOverlayWideBack.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeSamsungGestural/NavigationBarModeSamsungGesturalOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeSamsungGestural/NavigationBarModeSamsungGesturalOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/NavigationBarModeSamsungGesturalNoHint/NavigationBarModeSamsungGesturalNoHintOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/NavigationBarModeSamsungGesturalNoHint/NavigationBarModeSamsungGesturalNoHintOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/SysuiHideNotch/SysuiHideNotchOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SysuiHideNotch/SysuiHideNotchOverlay.apk	\
-	vendor/samsung/a10s/proprietary/vendor/overlay/SysuiHideNotchWithoutCornerRound/SysuiHideNotchWithoutCornerRoundOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SysuiHideNotchWithoutCornerRound/SysuiHideNotchWithoutCornerRoundOverlay.apk	\
 	vendor/samsung/a10s/proprietary/vendor/protect_f:$(TARGET_COPY_OUT_VENDOR)/protect_f	\
 	vendor/samsung/a10s/proprietary/vendor/protect_s:$(TARGET_COPY_OUT_VENDOR)/protect_s	\
 	vendor/samsung/a10s/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png	\
