@@ -72,22 +72,22 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild	\
 	vendor/samsung/a10s/proprietary/vendor/bin/hw/power_native_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_0	\
 	vendor/samsung/a10s/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.mediatek.hardware.gpu@1.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.mediatek.hardware.keymaster_attestation@1.1-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.mediatek.hardware.mms@1.5-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.mediatek.hardware.mtkpower@1.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.mediatek.hardware.nvram@1.1-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.mediatek.hardware.pq@2.2-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.base@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.samsung.hardware.base@1.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.samsung.hardware.gnss@2.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.light@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.samsung.hardware.light@3.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.samsung.hardware.miscpower@2.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.samsung.hardware.security.drk@2.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.samsung.hardware.vibrator@2.1-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.samsung.hardware.wifi@2.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.sw.swfingerprint@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.sw.swfingerprint@1.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.trustonic.tee@1.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/.trustonic.teeregistry@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.gpu@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.5-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.base@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.base@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.light@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light@3.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.drk@2.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.vibrator@2.1-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.wifi@2.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.sw.swfingerprint@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sw.swfingerprint@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.teeregistry@1.0-service	\
 	vendor/samsung/a10s/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl	\
 	vendor/samsung/a10s/proprietary/vendor/bin/hw/wosface.hardware.biometrics.face@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wosface.hardware.biometrics.face@1.0-service	\
 	vendor/samsung/a10s/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant	\
@@ -110,8 +110,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod	\
 	vendor/samsung/a10s/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager	\
 	vendor/samsung/a10s/proprietary/vendor/bin/vaultkeeperd:$(TARGET_COPY_OUT_VENDOR)/bin/vaultkeeperd	\
-	vendor/samsung/a10s/proprietary/vendor/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/.samsung.hardware.security.vaultkeeper@1.0-service	\
-	vendor/samsung/a10s/proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/.samsung.hardware.security.widevine.keyprovisioning@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service	\
+	vendor/samsung/a10s/proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service	\
 	vendor/samsung/a10s/proprietary/vendor/bin/wifiver_info:$(TARGET_COPY_OUT_VENDOR)/bin/wifiver_info	\
 	vendor/samsung/a10s/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant	\
 	vendor/samsung/a10s/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher	\
@@ -520,24 +520,24 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc	\
 	vendor/samsung/a10s/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc	\
 	vendor/samsung/a10s/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.mediatek.hardware.gpu@1.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.mediatek.hardware.keymaster_attestation@1.1-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.mediatek.hardware.mms@1.5-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.mediatek.hardware.mtkpower@1.0-init.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.mediatek.hardware.mtkpower@1.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.mediatek.hardware.nvram@1.1-sevice.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.mediatek.hardware.pq@2.2-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.base@1.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.gnss@2.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.light@3.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.miscpower@2.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.security.drk@2.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.vibrator@2.1-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.samsung.hardware.wifi@2.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.sw.swfingerprint@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.sw.swfingerprint@1.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.trustonic.tee@1.0-service.rc	\
-	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/.trustonic.teeregistry@1.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.base@1.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@3.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.sw.swfingerprint@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sw.swfingerprint@1.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc	\
+	vendor/samsung/a10s/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc	\
 	vendor/samsung/a10s/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc	\
 	vendor/samsung/a10s/proprietary/vendor/etc/init/wosface.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wosface.hardware.biometrics.face@1.0-service.rc	\
 	vendor/samsung/a10s/proprietary/vendor/etc/mmigroup/CommonConf.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/CommonConf.json	\
@@ -775,7 +775,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/etc/.tp/.thermal_policy_05:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_05	\
 	vendor/samsung/a10s/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/-apns-conf.xml	\
 	vendor/samsung/a10s/proprietary/vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml	\
-	vendor/samsung/a10s/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/.samsung.hardware.base@1.0-service.xml	\
+	vendor/samsung/a10s/proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml	\
 	vendor/samsung/a10s/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml	\
 	vendor/samsung/a10s/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml	\
 	vendor/samsung/a10s/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml	\
@@ -805,7 +805,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib64/libulk_ancbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulk_ancbase.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib64/vendor.sw.swfingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/.sw.swfingerprint@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib64/vendor.sw.swfingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.sw.swfingerprint@1.0.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so	\
@@ -868,20 +868,20 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/lib/hw/power.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6765.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/hw/sensors.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt6765.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/hw/thermal.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6765.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.camera.bgservice@1.1-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.camera.ccap@1.0-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.camera.lomoeffect@1.0-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.keymaster_attestation@1.1-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.mms@1.5-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.mtkpower@1.0-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.nvram@1.1-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.power@2.1-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.pq@2.3-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.mediatek.hardware.videotelephony@1.0-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.samsung.hardware.audio@1.0-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.samsung.hardware.gnss@2.0-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.samsung.hardware.light@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.samsung.hardware.light@3.0-impl.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.sw.swfingerprint@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/.sw.swfingerprint@1.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.samsung.hardware.light@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@3.0-impl.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/hw/vendor.sw.swfingerprint@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sw.swfingerprint@1.0-impl.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/interfaces.customNvService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.customNvService@1.0.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/interfaces.factoryAta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryAta@1.0.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/interfaces.factoryInterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryInterface@1.0.so	\
@@ -1280,69 +1280,69 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/a10s/proprietary/vendor/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmyspace.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libplaybackrecorder.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.egistec.hardware.fingerprint@4.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.fpsensor.hardware.fpsensorhidlsvc@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.audio@5.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.camera.bgservice@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.camera.bgservice@1.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.camera.ccap@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.frhandler@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.camera.frhandler@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.camera.lomoeffect@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.camera.security@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.engineermode@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.engineermode@1.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.engineermode@1.2.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.gpu@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.keymaster_attestation@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.keymaster_attestation@1.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.lbs@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mms@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mms@1.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mms@1.2.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mms@1.3.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mms@1.4.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mms@1.5.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mtkpower@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.mtkradioex@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.netdagent@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.nvram@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.nvram@1.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.power@1.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.power@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.power@2.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.pq@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.pq@2.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.pq@2.2.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.pq@2.3.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.radio_op@1.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.radio_op@1.2.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.radio_op@1.3.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.radio_op@1.4.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.radio_op@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.mediatek.hardware.videotelephony@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.frameworks.security.dsms@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.audio@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.base@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.gnss@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.health@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.light@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.light@3.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.miscpower@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.radio@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.radio@2.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.radio.bridge@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.radio.channel@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.security.drk@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.security.drk@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.security.vaultkeeper@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.security.widevine.keyprovisioning@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.vibrator@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.vibrator@2.1.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.wifi@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.wifi.hostapd@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.samsung.hardware.wifi.supplicant@2.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.sw.swfingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.sw.swfingerprint@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.trustonic.tee@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.trustonic.teeregistry@1.0.so	\
-	vendor/samsung/a10s/proprietary/vendor/lib/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/.trustonic.tee.tui@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.egistec.hardware.fingerprint@4.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@5.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.frhandler@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.frhandler@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.security@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.engineermode@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.engineermode@1.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.engineermode@1.2.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gpu@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.lbs@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.3.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio_op@1.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio_op@1.2.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio_op@1.3.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio_op@1.4.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.radio_op@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio_op@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.frameworks.security.dsms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.frameworks.security.dsms@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.audio@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.base@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.health@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.light@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.light@3.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.miscpower@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.miscpower@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.bridge@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.security.drk@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.drk@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.vibrator@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.vibrator@2.1.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.wifi@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.wifi.hostapd@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.wifi.supplicant@2.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.sw.swfingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sw.swfingerprint@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.tee@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.teeregistry@1.0.so	\
+	vendor/samsung/a10s/proprietary/vendor/lib/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.tee.tui@1.0.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/vndk/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx_utils.so	\
 	vendor/samsung/a10s/proprietary/vendor/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so	\
